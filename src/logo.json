@@ -2,51 +2,126 @@
     {
         "id": 1,
         "name": "Abarth",
-        "image": "../public/images/abarth.jpeg"
+        "image": "../images/abarth.jpeg"
     },
     {
         "id": 2,
         "name": "Acura",
-        "image": "../public/images/acura.jpeg"
+        "image": "../images/acura.jpeg"
     },
     {
         "id": 3,
         "name": "Alfa-Romeo",
-        "image": "../public/images/alfa.jpeg"
+        "image": "../images/alfa.jpeg"
     },
     {
         "id": 4,
         "name": "Audi",
-        "image": "../public/images/audi.png"
+        "image": "../images/audi.png"
     },
     {
         "id": 5,
         "name": "Bentley",
-        "image": "../public/images/bentley.png"
+        "image": "../images/bentley.png"
     },
     {
         "id": 6,
         "name": "Merc-Benz",
-        "image": "../public/images/benz.png"
+        "image": "../images/benz.png"
     },
     {
         "id": 7,
         "name": "BMW",
-        "image": "../public/images/bmw.jpeg"
+        "image": "../images/bmw.jpeg"
     },
     {
         "id": 8,
         "name": "Cadillac",
-        "image": "../public/images/cadi.jpeg"
+        "image": "../images/cadi.jpeg"
     },
     {
         "id": 9,
         "name": "Fiat",
-        "image": "../public/images/fiat.jpeg"
+        "image": "../images/fiat.jpeg"
     },
     {
         "id": 10,
         "name": "Ford",
-        "image": "../public/images/ford.jpeg"
+        "image": "../images/ford.jpeg"
+    },
+    {
+        "id": 11,
+        "name": "Honda",
+        "image": "../images/honda.jpeg"
+    },
+    {
+        "id": 12,
+        "name": "Jaguar",
+        "image": "../images/jag.jpeg"
+    },
+    {
+        "id": 13,
+        "name": "koenigsegg",
+        "image": "../images/koen.jpeg"
+    },
+    {
+        "id": 14,
+        "name": "Lexus",
+        "image": "../images/lexus.jpeg"
+    },
+    {
+        "id": 15,
+        "name": "Mazda",
+        "image": "../images/mazda.png"
+    },
+    {
+        "id": 16,
+        "name": "Mini-Cooper",
+        "image": "../images/mini.jpeg"
+    },
+    {
+        "id": 17,
+        "name": "Nissan",
+        "image": "../images/nissan.jpeg"
+    },
+    {
+        "id": 18,
+        "name": "Opel",
+        "image": "../images/opel.jpeg"
+    },
+    {
+        "id": 19,
+        "name": "Peugeot",
+        "image": "../images/peugeot.png"
+    },
+    {
+        "id": 20,
+        "name": "Porsche",
+        "image": "../images/porsche.png"
+    },
+    {
+        "id": 21,
+        "name": "Subaru",
+        "image": "../images/subi.jpeg"
+    },
+    {
+        "id": 22,
+        "name": "Tesla",
+        "image": "../images/tesla.png"
+    },
+    {
+        "id": 23,
+        "name": "Toyota",
+        "image": "../images/toyota.jpeg"
+    },
+    {
+        "id": 24,
+        "name": "Volvo",
+        "image": "../images/volvo.jpeg"
+    },
+    {
+        "id": 25,
+        "name": "VolksWagon",
+        "image": "../images/VW.jpeg"
     }
 ]

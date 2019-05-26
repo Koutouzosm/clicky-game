@@ -11,7 +11,20 @@ class App extends React.Component {
 
   state = {
     logoList: logos
-  };
+  }
+
+  handleShuffledLogo = logoId => {
+
+    const shuffledLogosList = this.state.logosList.sort(() => 0.5 - Math.random());
+
+    this.setState({
+      friendList: shuffledFriendList
+    });
+
+    this.setState({
+      logoList: shuffledLogosList
+    })
+  }
 
 
 
