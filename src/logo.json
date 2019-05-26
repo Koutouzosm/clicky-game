@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Abarth",
+        "image": "../public/images/abarth.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Acura",
+        "image": "../public/images/acura.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Alfa-Romeo",
+        "image": "../public/images/alfa.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Audi",
+        "image": "../public/images/audi.png"
+    },
+    {
+        "id": 5,
+        "name": "Bentley",
+        "image": "../public/images/bentley.png"
+    },
+    {
+        "id": 6,
+        "name": "Merc-Benz",
+        "image": "../public/images/benz.png"
+    },
+    {
+        "id": 7,
+        "name": "BMW",
+        "image": "../public/images/bmw.jpeg"
+    },
+    {
+        "id": 8,
+        "name": "Cadillac",
+        "image": "../public/images/cadi.jpeg"
+    },
+    {
+        "id": 9,
+        "name": "Fiat",
+        "image": "../public/images/fiat.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Ford",
+        "image": "../public/images/ford.jpeg"
+    }
+]
