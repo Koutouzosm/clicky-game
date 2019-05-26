@@ -3,7 +3,7 @@ import Wrapper from "./components/Wrapper"
 import Card from "./components/Card"
 import logos from './logo.json';
 import './App.css';
-import { isExpressionWrapper } from '@babel/types';
+
 
 
 class App extends React.Component {
@@ -15,24 +15,25 @@ class App extends React.Component {
 
 
 
-render() {
-  return (
-    <Wrapper>
-      <h1
-        className="title">Logo List</h1>
-      {
-        this.state.logoList.map(logo => {
-          return (
-            <Card
-              key={logo.id}
-
-            />
-          )
-        })
-      }
-    </Wrapper>
-  )
-}
+  render() {
+    return (
+      <Wrapper>
+        <h1
+          className="title">Logo List</h1>
+        {
+          this.state.logoList.map(logo => {
+            return (
+              <Card
+                key={logo.id}
+                name={logo.name}
+                image={logo.image}
+              />
+            )
+          })
+        }
+      </Wrapper>
+    )
+  }
 }
 
 
