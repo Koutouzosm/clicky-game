@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from "./components/Header"
 import Wrapper from "./components/Wrapper"
 import Card from "./components/Card"
 import logos from './logo.json';
@@ -13,38 +14,33 @@ class App extends React.Component {
     logoList: logos
   }
 
-  handleShuffledLogo = logoId => {
-
-    const shuffledLogosList = this.state.logosList.sort(() => 0.5 - Math.random());
-
+  shuffleLogos = () => {
+    const shuffledLogoList = this.state.logoList.sort(() => 0.5 - Math.random());
+  
     this.setState({
-      friendList: shuffledFriendList
+      logoList: shuffledLogoList
     });
-
-    this.setState({
-      logoList: shuffledLogosList
-    })
-  }
-
-
+  };
 
   render() {
     return (
-      <Wrapper>
-        <h1
-          className="title">Logo List</h1>
-        {
-          this.state.logoList.map(logo => {
-            return (
-              <Card
-                key={logo.id}
-                name={logo.name}
-                image={logo.image}
-              />
-            )
-          })
-        }
-      </Wrapper>
+      <React.Fragment>
+        <Header />
+        <Wrapper>
+          <h1 className="title">Logo List</h1>
+          {
+            this.state.logoList.map(logo => {
+              return (
+                <Card
+                  key={logo.id}
+                  name={logo.name}
+                  image={logo.image}
+                />
+              )
+            })
+          }
+        </Wrapper>
+      </ React.Fragment>
     )
   }
 }
