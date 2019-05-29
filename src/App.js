@@ -11,7 +11,19 @@ class App extends React.Component {
   // set up state and have it keep track of my logoList that is being imported over from logo.json
 
   state = {
-    logoList: logos
+    logoList: logos,
+    idArray: []
+  }
+
+
+  incrementCount() {
+    this.setState((state) => {
+      return {count: state.count + 1}
+    });
+  }
+  
+  handleScore() {
+    this.incrementCount();
   }
 
   shuffleLogos = () => {
@@ -21,6 +33,21 @@ class App extends React.Component {
       logoList: shuffledLogoList
     });
   };
+
+  handleClick = id => {
+    console.log(id);
+    if ((this.state.idArray).match()) {
+      console.log("lose");
+    }
+
+    else {
+      let tempArray = this.state.idArray + id;
+
+      this.setState({
+        idArray: tempArray
+      })
+    };
+  }
 
   render() {
     return (
@@ -35,6 +62,8 @@ class App extends React.Component {
                   key={logo.id}
                   name={logo.name}
                   image={logo.image}
+                  id={logo.id}
+                  handleClick={this.handleClick}
                 />
               )
             })

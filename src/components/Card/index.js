@@ -1,20 +1,22 @@
 import React from "react";
 import "./style.css";
 
-function Card(props) {
-    return (
+
+    function Card(props) {
+        return (
         <div className="card">
             <div className="img-container">
-                <img 
-                // onClick={() => handleOnClick(Id)}
-                src={props.image}
+                <img
+                    src={props.image}
                     alt={props.name}
-                    />
+                    onClick={() => props.handleClick(props.id)}
+                />
             </div>
         </div>
     )
 
-};
+    };
+
 
 
 
