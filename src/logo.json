@@ -2,103 +2,103 @@
     {
         "id": 1,
         "name": "Abarth",
-        "image": "../images/abarth.jpeg",
+        "image": "images/abarth.jpeg",
         "clicked": false
     },
     {
         "id": 2,
         "name": "Acura",
-        "image": "../images/acura.jpeg",
+        "image": "images/acura.jpeg",
         "clicked": false
     },
     {
         "id": 3,
         "name": "Alfa-Romeo",
-        "image": "../images/alfa.jpeg",
+        "image": "images/alfa.jpeg",
         "clicked": false
     },
     {
         "id": 4,
         "name": "Audi",
-        "image": "../images/audi.png",
+        "image": "images/audi.png",
         "clicked": false
     },
     {
         "id": 5,
         "name": "Bentley",
-        "image": "../images/bentley.png",
+        "image": "images/bentley.png",
         "clicked": false
     },
     {
         "id": 6,
         "name": "Merc-Benz",
-        "image": "../images/benz.png",
+        "image": "images/benz.png",
         "clicked": false
     },
     {
         "id": 7,
         "name": "BMW",
-        "image": "../images/bmw.jpeg",
+        "image": "images/bmw.jpeg",
         "clicked": false
     },
     {
         "id": 8,
         "name": "Cadillac",
-        "image": "../images/cadi.jpeg",
+        "image": "images/cadi.jpeg",
         "clicked": false
     },
     {
         "id": 9,
         "name": "Fiat",
-        "image": "../images/fiat.jpeg",
+        "image": "images/fiat.jpeg",
         "clicked": false
     },
     {
         "id": 10,
         "name": "Ford",
-        "image": "../images/ford.jpeg",
+        "image": "images/ford.jpeg",
         "clicked": false
     },
     {
         "id": 11,
         "name": "Honda",
-        "image": "../images/honda.jpeg",
+        "image": "images/honda.jpeg",
         "clicked": false
     },
     {
         "id": 12,
         "name": "Jaguar",
-        "image": "../images/jag.jpeg",
+        "image": "images/jag.jpeg",
         "clicked": false
     },
     {
         "id": 13,
         "name": "koenigsegg",
-        "image": "../images/koen.jpeg",
+        "image": "images/koen.jpeg",
         "clicked": false
     },
     {
         "id": 14,
         "name": "Lexus",
-        "image": "../images/lexus.jpeg",
+        "image": "images/lexus.jpeg",
         "clicked": false
     },
     {
         "id": 15,
         "name": "Mazda",
-        "image": "../images/mazda.png",
+        "image": "images/mazda.png",
         "clicked": false
     },
     {
         "id": 16,
         "name": "Mini-Cooper",
-        "image": "../images/mini.jpeg",
+        "image": "images/mini.jpeg",
         "clicked": false
     },
     {
         "id": 17,
         "name": "Nissan",
-        "image": "../images/nissan.jpeg",
+        "image": "images/nissan.jpeg",
         "clicked": false
     },
     {
@@ -110,43 +110,43 @@
     {
         "id": 19,
         "name": "Peugeot",
-        "image": "../images/peugeot.png",
+        "image": "images/peugeot.png",
         "clicked": false
     },
     {
         "id": 20,
         "name": "Porsche",
-        "image": "../images/porsche.png",
+        "image": "images/porsche.png",
         "clicked": false
     },
     {
         "id": 21,
         "name": "Subaru",
-        "image": "../images/subi.jpeg",
+        "image": "images/subi.jpeg",
         "clicked": false
     },
     {
         "id": 22,
         "name": "Tesla",
-        "image": "../images/tesla.png",
+        "image": "images/tesla.png",
         "clicked": false
     },
     {
         "id": 23,
         "name": "Toyota",
-        "image": "../images/toyota.jpeg",
+        "image": "images/toyota.jpeg",
         "clicked": false
     },
     {
         "id": 24,
         "name": "Volvo",
-        "image": "../images/volvo.jpeg",
+        "image": "images/volvo.jpeg",
         "clicked": false
     },
     {
         "id": 25,
         "name": "VolksWagon",
-        "image": "../images/VW.jpeg",
+        "image": "images/VW.jpeg",
         "clicked": false
     }
 ]
