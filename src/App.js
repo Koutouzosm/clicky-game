@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from "./components/Header"
+import Jumbotron from "./components/Jumbotron"
 import Wrapper from "./components/Wrapper"
 import Card from "./components/Card"
 import logos from './logo.json';
@@ -12,23 +12,34 @@ class App extends React.Component {
 
   state = {
     logoList: logos,
-    idArray: []
+    key: [],
+    score: 0,
+    highScore: 0
   }
 
 
-  incrementCount() {
-    this.setState((state) => {
-      return {count: state.count + 1}
+
+  handleHighScore = () => {
+    const {score, highScore} = this.state
+    if (score > highScore){
+      this.setState({
+        highScore: score
+      })
+    }
+  }
+
+  incrementCount = () => {
+    this.setState(() => {
+      return {
+        score: this.state.score + 1
+      }
     });
   }
-  
-  handleScore() {
-    this.incrementCount();
-  }
+
 
   shuffleLogos = () => {
     const shuffledLogoList = this.state.logoList.sort(() => 0.5 - Math.random());
-  
+
     this.setState({
       logoList: shuffledLogoList
     });
@@ -36,25 +47,37 @@ class App extends React.Component {
 
   handleClick = id => {
     console.log(id);
-    if ((this.state.idArray).match()) {
-      console.log("lose");
-    }
 
-    else {
-      let tempArray = this.state.idArray + id;
-
+    if (this.state.key.includes(id)) {
+      alert('You picked the same logo, start again!!')
+      // shuffle cards and reset score to 0
       this.setState({
-        idArray: tempArray
+        score: 0,
+        key: [],
       })
-    };
-  }
+      this.handleHighScore()
+    }
+    else {
+      const newKeys = [...this.state.key, id];
+      // shuffle cards and update score by one
+      this.setState({
+        key: newKeys
+      })
+      console.log("win")
+      this.incrementCount()
+    }
+    this.shuffleLogos()
+  };
 
   render() {
+    console.log(this.state)
     return (
       <React.Fragment>
-        <Header />
+        <Jumbotron
+        currentScore = {this.state.score}
+        highScore = {this.state.highScore}
+        />
         <Wrapper>
-          <h1 className="title">Logo List</h1>
           {
             this.state.logoList.map(logo => {
               return (
